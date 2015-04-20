@@ -1,7 +1,7 @@
 {
   "name": "fetch-patch",
   "version": "1.0.0",
-  "description": "Fetch github patch for public or private github repos",
+  "description": "Fetch github patch for public or private repos",
   "main": "index.js",
   "bin": {
     "fetch-patch": "./bin/cmd.js"
