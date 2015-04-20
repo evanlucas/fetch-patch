@@ -4,6 +4,8 @@ fetch a patch from github (works for private repos too)
 
 Useful for piping into `git am`
 
+**NOTE: requires `io.js` v1.x**
+
 ## Install
 
 ```bash
