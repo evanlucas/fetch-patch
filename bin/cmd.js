@@ -46,7 +46,6 @@ function done(err, out) {
 }
 
 function readToken() {
-  var token
   try {
     return fs.readFileSync(path.join(home, '.github_token'), 'utf8').trim()
   }
