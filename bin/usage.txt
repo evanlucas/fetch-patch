@@ -1,0 +1,11 @@
+fetch-patch
+
+  fetch a patch from github (works for private repos too)
+
+  usage:
+    fetch-patch <patch url>
+    fetch-patch <repo owner> <repo name> <pr url>
+
+  note:
+    in order for private repositories to work correctly, one must create a
+    github token and place it in ~/.github_token

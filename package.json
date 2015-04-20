@@ -1,0 +1,28 @@
+{
+  "name": "fetch-patch",
+  "version": "1.0.0",
+  "description": "Fetch github patch for public or private github repos",
+  "main": "index.js",
+  "bin": {
+    "fetch-patch": "./bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evanlucas/fetch-patch.git"
+  },
+  "keywords": [
+    "git",
+    "patch",
+    "pr",
+    "github"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/fetch-patch/issues"
+  },
+  "homepage": "https://github.com/evanlucas/fetch-patch",
+  "dependencies": {
+    "request": "~2.55.0"
+  }
+}
