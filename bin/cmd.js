@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-var args = process.argv.splice(2)
-  , patch = require('../')
-  , fs = require('fs')
-  , home = process.env.HOME
-  , path = require('path')
+const args = process.argv.splice(2)
+    , patch = require('../')
+    , fs = require('fs')
+    , home = process.env.HOME
+    , path = require('path')
 
 if (!args.length) return usage(1)
 
@@ -12,7 +12,7 @@ if (args[0] === 'help' || args[0] === '-h' || args[0] === '--help') {
   return usage(0)
 }
 
-var token = readToken()
+const token = readToken()
 
 if (args.length === 1) {
   var url
