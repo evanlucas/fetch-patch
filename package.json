@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/evanlucas/fetch-patch",
   "dependencies": {
+    "help": "~1.0.0",
     "request": "~2.55.0"
   }
 }

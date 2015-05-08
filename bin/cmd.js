@@ -3,6 +3,7 @@
 const args = process.argv.splice(2)
     , patch = require('../')
     , fs = require('fs')
+    , usage = require('help')()
     , home = process.env.HOME
     , path = require('path')
 
@@ -50,12 +51,4 @@ function readToken() {
     return fs.readFileSync(path.join(home, '.github_token'), 'utf8').trim()
   }
   catch (err) {}
-}
-
-function usage(code) {
-  var rs = fs.createReadStream(__dirname + '/usage.txt')
-  rs.pipe(process.stdout)
-  rs.on('close', function() {
-    if (code) process.exit(code)
-  })
 }
