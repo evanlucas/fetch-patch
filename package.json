@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Fetch github patch for public or private repos",
   "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
   "bin": {
     "fetch-patch": "./bin/cmd.js"
   },
@@ -25,5 +28,8 @@
   "dependencies": {
     "help": "~2.0.0",
     "request": "~2.55.0"
+  },
+  "devDependencies": {
+    "tap": "~2.1.0"
   }
 }
