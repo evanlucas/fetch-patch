@@ -23,7 +23,7 @@ fetch-patch
 
   usage:
     fetch-patch <patch url>
-    fetch-patch <repo owner> <repo name> <pr url>
+    fetch-patch <repo owner> <repo name> <pr #>
 
   note:
     in order for private repositories to work correctly, one must create a
