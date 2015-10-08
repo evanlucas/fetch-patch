@@ -1,5 +1,8 @@
 # fetch-patch
 
+[![Build Status](https://travis-ci.org/evanlucas/fetch-patch.svg)](https://travis-ci.org/evanlucas/fetch-patch)
+[![Coverage Status](https://coveralls.io/repos/evanlucas/fetch-patch/badge.svg?branch=master&service=github)](https://coveralls.io/github/evanlucas/fetch-patch?branch=master)
+
 fetch a patch from github (works for private repos too)
 
 Useful for piping into `git am`
