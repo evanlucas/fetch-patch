@@ -30,6 +30,6 @@
     "request": "~2.55.0"
   },
   "devDependencies": {
-    "tap": "~2.1.0"
+    "tap": "~2.3.1"
   }
 }
