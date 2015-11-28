@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/evanlucas/fetch-patch",
   "dependencies": {
-    "help": "~2.0.0",
+    "help": "~2.1.2",
     "request": "~2.55.0"
   },
   "devDependencies": {
