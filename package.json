@@ -1,6 +1,6 @@
 {
   "name": "fetch-patch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fetch github patch for public or private repos",
   "main": "index.js",
   "scripts": {
